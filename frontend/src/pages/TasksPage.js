@@ -5,7 +5,7 @@ import { useAuth } from "../context/AuthContext";
 import TaskForm from "../components/TaskForm";
 import TaskItem from "../components/TaskItem";
 
-const socket = io(import.meta.env.VITE_BACKEND_URL);
+const socket = io(import.meta.env.REACT_BACKEND_URL);
 
 function TasksPage() {
   const { user, logout } = useAuth();
