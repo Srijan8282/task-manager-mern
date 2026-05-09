@@ -25,6 +25,10 @@ app.use(mongoSanitize());
 // Make io accessible in controllers
 app.set("io", io);
 
+app.get("/api/status", (req, res) => {
+  res.send("Server is live");
+});
+
 app.use("/api/auth", authRoutes);
 app.use("/api/tasks", taskRoutes);
 
