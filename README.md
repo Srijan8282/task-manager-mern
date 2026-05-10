@@ -13,7 +13,6 @@ A collaborative task management application built with the MERN stack. Multiple 
 - User signup and login with JWT based authentication
 - Create, edit, delete, and mark tasks as completed
 - Real-time updates using Socket.io — all connected users see changes instantly
-- Search tasks by title
 - Pagination — 5 tasks per page
 - Passwords are hashed using bcrypt before storing in the database
 - Protected API routes — only authenticated users can access tasks
